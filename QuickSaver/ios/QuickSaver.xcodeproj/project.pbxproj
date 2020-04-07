@@ -16,13 +16,13 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* QuickSaverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* QuickSaverTests.m */; };
-		6E67429C23FCB85E005EA08C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E67429B23FCB85E005EA08C /* GoogleService-Info.plist */; };
 		7C3F9056749392F21DC74850 /* libPods-QuickSaver.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E1412D1F356CF7C7619AD0 /* libPods-QuickSaver.a */; };
 		AAEA9551D4B66D505AA69F93 /* libPods-QuickSaver-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E7D70D9B11BD9C4B7FFA88 /* libPods-QuickSaver-tvOSTests.a */; };
 		B73BFF4A241166D80034C6C2 /* ios in Resources */ = {isa = PBXBuildFile; fileRef = B73BFF49241166D70034C6C2 /* ios */; };
 		B73BFF4B241167330034C6C2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E67429B23FCB85E005EA08C /* GoogleService-Info.plist */; };
 		B73BFF4C241167340034C6C2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E67429B23FCB85E005EA08C /* GoogleService-Info.plist */; };
 		B73BFF4D241167350034C6C2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E67429B23FCB85E005EA08C /* GoogleService-Info.plist */; };
+		B775661324194B0E00FE695C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E67429B23FCB85E005EA08C /* GoogleService-Info.plist */; };
 		C6F5974B9825BCEE169DD29E /* libPods-QuickSaver-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF0A758FDE14A9BC2273BDC4 /* libPods-QuickSaver-tvOS.a */; };
 		E92AF2571D87409671FC6520 /* libPods-QuickSaverTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05ACE6F2D8CD0770C09460BB /* libPods-QuickSaverTests.a */; };
 /* End PBXBuildFile section */
@@ -69,7 +69,7 @@
 		55D3E5D043B77FACA5E2A27F /* Pods-QuickSaverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickSaverTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickSaverTests/Pods-QuickSaverTests.release.xcconfig"; sourceTree = "<group>"; };
 		5D5212BADA954E76B92193FC /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		68E72F30B939608A2FDB8A1A /* Pods-QuickSaver-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickSaver-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickSaver-tvOS/Pods-QuickSaver-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		6E67429B23FCB85E005EA08C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; name = "GoogleService-Info.plist"; path = "../../../Desktop/qs/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		6E67429B23FCB85E005EA08C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "/Users/markdonahue/Desktop/savers/QuickSaver/ios/GoogleService-Info.plist"; sourceTree = "<absolute>"; };
 		71DD5CBE874218009E53523B /* Pods-QuickSaverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickSaverTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickSaverTests/Pods-QuickSaverTests.debug.xcconfig"; sourceTree = "<group>"; };
 		72BDB5AA236E461F898E089C /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		7A407038A0D821ABA7C88F58 /* Pods-QuickSaver-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickSaver-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickSaver-tvOSTests/Pods-QuickSaver-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -279,6 +279,7 @@
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				AC75461866B86E3F1375A02E /* [CP] Copy Pods Resources */,
+				B7756614241951B200FE695C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -391,10 +392,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B775661324194B0E00FE695C /* GoogleService-Info.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				B73BFF4A241166D80034C6C2 /* ios in Resources */,
-				6E67429C23FCB85E005EA08C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +431,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
 		05A1C10FBC95FECFFD3D8314 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -539,6 +540,23 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuickSaver/Pods-QuickSaver-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		B7756614241951B200FE695C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
 		};
 		E0052F5134BC11DEB9C385FD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -757,6 +775,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.quicksaver.app;
 				PRODUCT_NAME = QuickSaver;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -781,6 +800,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.quicksaver.app;
 				PRODUCT_NAME = QuickSaver;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;

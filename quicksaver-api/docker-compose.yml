@@ -1,0 +1,18 @@
+version: '3'
+volumes:  
+  postgres_data: {} 
+services:  
+  app:    
+    build:      
+      context: .      
+      dockerfile: ./DockerFile
+    depends_on:      
+      - db  
+  db:    
+    image: postgres    
+    volumes:      
+      - postgres_data:/var/lib/postgresql/data  
+    environment:
+      - POSTGRES_USER=quicksaver-api
+      - POSTGRES_PASSWORD=er73j2sU86cHuGjm
+      - POSTGRES_DB=quicksaver-api_production

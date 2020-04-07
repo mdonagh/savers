@@ -19,7 +19,7 @@ import { getSession, createSession, deleteSession } from './Session';
 
 // const API_URL = 'https://morning-bayou-76530.herokuapp.com';
 const MAIL_API = 'https://secure-fortress-18804.herokuapp.com';
-const API_URL = 'http://localhost:3000';
+const API_URL = 'http://quicksavers-5e6839d95e4112000146c226.c.5e6588bc5e4112000146c1bf.cycle.io:3000';
 // const MAIL_API = 'http://localhost:3001';
 
 export function loginSuccess(details) {

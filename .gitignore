@@ -2,3 +2,5 @@
 */Build
 QuickSaver/ios/build
 QuickSaver/ios/Pods/*
+.DS_Store
+*/.DS_Store
